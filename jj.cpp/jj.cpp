@@ -7,5 +7,8 @@ int main () {
    cout << "the adress of a is " << &a << endl;
    cout << "the adress of a is " << b << endl;
    cout << "the value of b is " << *b << endl;
+//    double pointer for ** 
+   int** c = &b;
+   cout << "address of b is"<< c << endl;
     return 0;
 }
