@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
-int main () {
-    int a =34;
-    char c ='c';
-    cout <<"the value of a was: " << a <<"\n";
-    a =45;
-    c = '4';
-    cout << "the valuse of a is:" << a;
+int main () { 
+    int a =3;
+    int* b =&a;
+    //*b = value of b ,,, &a - address of a baiscly &= adress and *=value if they are attach ith some variable . 
+   cout << "the adress of a is " << &a << endl;
+   cout << "the adress of a is " << b << endl;
+   cout << "the value of b is " << *b << endl;
     return 0;
 }
