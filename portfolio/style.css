@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+}
+body {
+    background-color: white;
+}
+button {
+    color:brown;
+    background-color: lightblue;
+}
+p {
+    color : greenyellow;
+}
+label {
+    color : rgb(123, 37, 185);
+}
+input {
+    color : brown;
+    background-color: lightblue;
+} textarea {
+    background-color : lightblue;
+}
